@@ -1,3 +1,8 @@
+.cooperation {
+  width: 1728px;
+  height: 2880px;
+}
+
 .content {
   width: 1728px;
   height: 945px;
@@ -19,6 +24,7 @@
     color: #728ccd;
     margin-right: 70%;
     text-decoration: none;
+    margin-bottom: 20px;
   }
 
   .bt-back:hover {
@@ -33,6 +39,7 @@
       rgba(250, 183, 185, 100),
       rgba(114, 140, 205, 100)
     );
+
     .m-box-job-d {
       display: flex;
       flex-direction: column;
@@ -103,9 +110,9 @@
   width: 1728px;
   height: 686px;
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
+  background: #ffffff;
 
   .h-box {
     width: 1152px;
@@ -118,40 +125,6 @@
     justify-content: center;
     margin-top: 20px;
     margin-left: 150px;
-
-    h1 {
-      font-family: serif;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 40px;
-      line-height: 48px;
-      display: flex;
-      align-items: center;
-      text-align: left;
-      color: #000000;
-    }
-
-    ul {
-      align-items: center;
-      justify-content: center;
-      color: #3b82f6;
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 24px;
-    }
-
-    li {
-      font-family: Verdana;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 24px;
-      line-height: 29px;
-      align-items: center;
-      justify-content: center;
-      color: #000000;
-      text-align: left;
-      margin-top: 20px;
-    }
   }
 }
 
@@ -163,6 +136,18 @@
   text-align: center;
   background: #ffffff;
 }
+.h-box {
+  width: 1152px;
+  height: 428px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 150px;
+}
 
 .cont4 {
   width: 1728px;
@@ -171,4 +156,32 @@
   justify-content: space-evenly;
   text-align: center;
   background: #ffffff;
+
+  .h-box {
+    width: 1152px;
+    height: 500px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 150px;
+  }
+  button {
+    width: 380px;
+    height: 60px;
+    background: #3b82f6;
+    border-radius: 5px;
+    margin-left: 65%;
+    font-family: serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    color: white;
+    margin-top: 50px;
+    margin-right: 130%;
+  }
 }

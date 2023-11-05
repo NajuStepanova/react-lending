@@ -2,6 +2,9 @@ import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import back from "../img/Outlined.svg";
+import frame1 from "../img/Frame1.svg";
+import frame2 from "../img/Frame2.svg";
+import frame3 from "../img/Frame3.svg";
 import { NavLink } from "react-router-dom";
 
 function WorkCond() {
@@ -34,35 +37,20 @@ function WorkCond() {
       </div>
       <div className="cont2">
         <div className="h-box">
-          <h1>Чем будете заниматься</h1>
-          <ul>
-            <li>
-              Привлечение новых пользователей (исполнителей) на сайт и в
-              приложение стартапа.
-            </li>
-            <li>
-              Помощь пользователям в процессе регистрации и настройки аккаунта.
-            </li>
-            <li>Консультирование клиентов по функциям приложения и сайта.</li>
-            <li>Мониторинг и учет активности пользователей.</li>
-            <li>
-              Взаимодействие с клиентами через различные каналы коммуникации
-              (электронная почта, чат, телефонные звонки, переписка в соц. сетях
-              и др.).
-            </li>
-            <li>
-              Работа с вопросами и замечаниями пользователей, поиск решений и
-              предоставление качественного обслуживания.
-            </li>
-            <li>
-              Составление отчетов о проделанной работе и рекомендации по
-              улучшению обслуживания клиентов.
-            </li>
-          </ul>
+          <img src={frame1} alt="Frame1" />
         </div>
       </div>
-      <div className="cont3"></div>
-      <div className="cont4"></div>
+      <div className="cont3">
+        <div className="h-box">
+          <img src={frame2} alt="Frame2" />
+        </div>
+      </div>
+      <div className="cont4">
+        <div className="h-box">
+          <img src={frame3} alt="Frame3" />
+          <button>Заполнить анкету</button>
+        </div>
+      </div>
       <Footer />
     </div>
   );

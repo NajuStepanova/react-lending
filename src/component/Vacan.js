@@ -8,11 +8,6 @@ function Vacan() {
       <Header />
       <div className="content">
         <p>Страница Вакансии</p>
-        <button>
-          <a href="https://github.com" target={"_blank"} rel="noreferrer">
-            View At Github
-          </a>
-        </button>
       </div>
       <Footer />
     </div>
