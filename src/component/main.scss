@@ -95,15 +95,7 @@ body {
       height: 45px;
       background: #3b82f6;
       border-radius: 10px;
-    }
-
-    button:hover {
-      background: #034fe9;
-    }
-
-    .a {
-      width: 100px;
-      height: 20px;
+      //text button
       font-family: serif;
       font-style: normal;
       font-weight: 600;
@@ -113,8 +105,12 @@ body {
       color: white;
     }
 
-    .a:hover {
-      color: black;
+    button:hover {
+      background: #034fe9;
+    }
+
+    .a {
+      text-decoration: none;
     }
   }
 
@@ -240,11 +236,6 @@ body {
       flex-direction: row;
       justify-content: space-between;
 
-      .button-group-link {
-        text-decoration: none;
-        color: black;
-      }
-
       .drop-d {
         width: 24px;
         height: 24px;
@@ -253,18 +244,18 @@ body {
         font-style: normal;
         border-radius: 5px;
         opacity: 100%;
-        margin-top: 10px;
       }
       .drop-d:hover {
         background: #cadaf9;
       }
+
       button {
         background: none;
         font-family: serif;
         font-style: normal;
         font-size: 24px;
         border: #ffffff;
-        border-radius: 16px;
+        border-radius: 10px;
         color: black;
         opacity: 100%;
       }

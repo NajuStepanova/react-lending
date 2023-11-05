@@ -16,11 +16,9 @@ function Main() {
               Краткое описание преимуществ работы в компании и подхода к подбору
               сотрудников.
             </p>
-            <button>
-              <NavLink className="a" to={"/workcond"}>
-                Смотреть
-              </NavLink>
-            </button>
+            <NavLink className="a" to={"/workcond"}>
+              <button> Смотреть</button>
+            </NavLink>
           </div>
           <div className="boxV">
             <h1>Вакансии OneSelfJob</h1>
@@ -63,26 +61,24 @@ function Main() {
         <p>Вакансии OneSelfJob</p>
         <div className="boxScroll">
           <div className="button-group">
-            <button>
-              <NavLink className="button-group-link">Все</NavLink>
-            </button>
-            <button>
-              <NavLink className="button-group-link">IT</NavLink>
-            </button>
-            <button>
-              <NavLink className="button-group-link">Маркетинг</NavLink>
-            </button>
-            <button>
-              <NavLink className="button-group-link">Продажи</NavLink>
-            </button>
-            <button>
-              <NavLink className="button-group-link">Дизайн</NavLink>
-            </button>
-            <button>
-              <NavLink className="button-group-link">
-                Менеджеры продукта
-              </NavLink>
-            </button>
+            <NavLink className="a" to={"/vacan"}>
+              <button> Все</button>
+            </NavLink>
+            <NavLink className="a" to={"/"}>
+              <button> IT</button>
+            </NavLink>
+            <NavLink className="a" to={"/"}>
+              <button> Маркетинг</button>
+            </NavLink>
+            <NavLink className="a" to={"/"}>
+              <button> Продажи</button>
+            </NavLink>
+            <NavLink className="a" to={"/"}>
+              <button> Дизайн</button>
+            </NavLink>
+            <NavLink className="a" to={"/"}>
+              <button> Менеджеры продукта</button>
+            </NavLink>
             <select className="drop-d">
               <option selected></option>
               <option>Значение 2</option>
